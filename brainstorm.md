@@ -9,7 +9,7 @@ Taking some inspiration from [here](https://medium.com/@snikolov/neuralbeats-gen
 2. use Nsynth to generate “new” drum kit presets using combinations of existing drum samples from these packages, and audio samples of my own, as a way to personalise these prefabricated sounds
 
 <a href="https://www.youtube.com/watch?v=rU2ieu5o5DQ" target="_blank"><img src="https://github.com/artintelclass/final-andrjjr/blob/master/0.jpg" 
-alt="VIDEO" width="240" height="180" border="10" /></a>
+alt="VIDEO" width="240" height="180" border="10" align="center"/></a>
 
 ## What I hope to see from this project
 
