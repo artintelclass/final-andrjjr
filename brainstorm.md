@@ -14,5 +14,7 @@ alt="VIDEO" width="240" height="180" border="10" align="center"/></a>
 ## What I hope to see from this project
 
 1.Can ML techniques yield interesting results in terms of sound samples, when combining presets and custom sounds. Will combining different sounds from within the presets themselves yield cool results? If successful, it can be a starting point for thinking about how producers/musicians use presets and sample libraries?
+
 2.Can we subvert one of the possible negative effects of sample libraries i.e. reduce homogeneity of sound output, and put creative control in a musicians hands, rather than a company which designs the presets?
+
 3.How well do these ML techniques work in situations where musical content is quite sparse and repetitive (formalised drum patterns, song structures)?
