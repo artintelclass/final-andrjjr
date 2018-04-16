@@ -8,10 +8,10 @@ Taking some inspiration from [here](https://medium.com/@snikolov/neuralbeats-gen
 1. train drum-RNN on a set of midi drum data from sample libraries. The set will depend on the required size of data, but I want to use something like this as a starting point
 2. use Nsynth to generate “new” drum kit presets using combinations of existing drum samples from these packages, and audio samples of my own, as a way to personalise these prefabricated sounds
 
-<a href="https://www.youtube.com/watch?v=rU2ieu5o5DQ" target="_blank"><img src="0.jpg" 
+<a href="https://www.youtube.com/watch?v=rU2ieu5o5DQ" target="_blank"><img src="https://github.com/artintelclass/final-andrjjr/blob/master/0.jpg" 
 alt="VIDEO" width="240" height="180" border="10" /></a>
 
-What I hope to see from this project
+## What I hope to see from this project
 
 1.Can ML techniques yield interesting results in terms of sound samples, when combining presets and custom sounds. Will combining different sounds from within the presets themselves yield cool results? If successful, it can be a starting point for thinking about how producers/musicians use presets and sample libraries?
 2.Can we subvert one of the possible negative effects of sample libraries i.e. reduce homogeneity of sound output, and put creative control in a musicians hands, rather than a company which designs the presets?
