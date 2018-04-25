@@ -18,20 +18,21 @@ def filter(filter, list_to_filter):
             print(warning)
     return process
 
+data_loc = './tech_dataset_y/'
 
-items = os.listdir('./tech_dataset_x')
+items = os.listdir(data_loc)
 folders = clean(items)
 
 for folder in folders:
     #file ops
     folder_pf = folder.replace(' ', ' ')
-    files = filter('.mid', clean(os.listdir('./tech_dataset_x/' + folder_pf)))
+    files = filter('.mid', clean(os.listdir(data_loc + folder_pf)))
 
     for file in files:
-        src = './tech_dataset_x/' + folder_pf + '/' + file
-        dst = './tech_dataset_x/' + folder_pf + '/' + file.replace(' ', '_')
+        src = data_loc + folder_pf + '/' + file
+        dst = data_loc + folder_pf + '/' + file.replace(' ', '_')
         os.rename(src, dst)
 
-    folder_src = './tech_dataset_x/' + folder_pf
-    folder_dst = './tech_dataset_x/' + folder.replace(' ', '_')
+    folder_src = data_loc + folder_pf
+    folder_dst = data_loc + folder.replace(' ', '_')
     os.rename(folder_src, folder_dst)
