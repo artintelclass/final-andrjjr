@@ -23,5 +23,14 @@ Scouring the web, led me to two potential solutions. People mentioned that they 
 
 I needed to visualise my midi files, to check these features in the files. Thankfully, there was a tool to do this - [MIDICSV](http://www.fourmilab.ch/webtools/midicsv/). Lo and behold, I had both double entries for time signature information in my files, and a channel number of 0 for all note_on and note_off events. 
 
+![errors](https://github.com/artintelclass/final-andrjjr/blob/master/images/Screen%20Shot%202018-04-25%20at%2010.38.15%20AM.png)
+
+Having the midi as .csv was helpful, but having thousands of MIDI files was not, so I had to automate the process. Given my limited (no) knowledge of Bash/Shell scripting, and my decent handle over Python, I wrote a script that runs on the directory of MIDI files, converting them all to CSV, performing the neccessary processing (*removing the second time_signature information* and *changing the MIDI channel of all events to channel 9*). The scripts are quite rudimentary, rely on a specific folder setup and have some annoying features, so not really usable outside my specific setup right now, **_but it works!_**. These scripts are in the repo for reference, and I'll note if I rework them to be a bit more usable. 
+
+So, having done this, I was finally able to produce the required training_drum_tracks.tfrecord and eval_drum_tracks.tfrecord files. These are currently training. 
+
+### Next?
+
+This training set is not based on techno drum files exclusively, but a wide mix of whatever I could find. If this training works, I will then try doing a training on my small sample of specific techno files, and then on mixtures of these files with other specific genres to see if some interesting hybdrid combos emerge!
 
 
