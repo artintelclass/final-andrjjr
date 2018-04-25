@@ -1,4 +1,6 @@
-# Project Timeline
+# Project Log
+
+## Project Timeline
 
 Sticking with [my initial idea](https://github.com/artintelclass/final-andrjjr/blob/master/brainstorm.md) of training Magenta ML models on datasets of MIDI data for VST sample & preset libraries focused on creating [techno music](https://www.youtube.com/watch?v=ZdBWMA9M7xQ), here is an outline of how I see the project going:
 
@@ -30,7 +32,6 @@ Having the midi as .csv was helpful, but having thousands of MIDI files was not,
 So, having done this, I was finally able to produce the required training_drum_tracks.tfrecord and eval_drum_tracks.tfrecord files. These are currently training. 
 
 ### Next?
-
 This training set is not based on techno drum files exclusively, but a wide mix of whatever I could find. If this training works, I will then try doing a training on my small sample of specific techno files, and then on mixtures of these files with other specific genres to see if some interesting hybdrid combos emerge!
 
 
