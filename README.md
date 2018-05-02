@@ -36,7 +36,7 @@ This is where I saw that this would be a collaboration. The ML provides a lot of
 
 ## The Content
 
-Let me talk a bit about the music itself. I mentioned the primer drum tracks earlier. Although the model was trained on a *non-genred* set of data, the use of primers of a specific style influenced the rhythms it generated. I turned to Fela Kuti and Tony Allen, wanting at this point to step away from regular, 4/4 dominated rhythms of a lot of club and dance music, and also because I just really dig their music. I transcribed a bunch of afro-beat drum grooves into the format required by Drums-RNN, as well as a few other rhythmic blueprints for a bit of deviation.
+Let me talk a bit about the music itself. I mentioned the primer drum tracks earlier. Although the model was trained on a *non-genred* set of data, the use of primers of a specific style influenced the rhythms it generated. I turned to Fela Kuti and Tony Allen, wanting at this point to step away from regular, 4/4 dominated rhythms of a lot of club and dance music, and also because I just really dig their music. I transcribed a bunch of [afro-beat drum grooves](https://www.youtube.com/watch?v=Q76UngzHX5Y) into the format required by Drums-RNN, as well as a few other rhythmic blueprints for a bit of deviation.
 
 Once the rhythms were generated, I listened to them and made rough sketches in Logic, cutting, splicing and recombining. Importanlty, I sometimes left the rhythms as they were, because again, it was about me *and* the machine. Some of its outputs were really incredible, and so I left them as is. 
 
